@@ -8,5 +8,6 @@ d,m,y = firstdate.split('/')
 lastdate = input("Enter a date in (dd/mm/yy) format: ")
 d1,m1,y1 = lastdate.split('/')
 
-day = (lastdate - firstdate).days
-#print("There are", int(date1 - date),"in between",date,"and",date1)
+
+day = int(d1) - int(d)
+print("There are",day,"in between",firstdate,"and",lastdate)
